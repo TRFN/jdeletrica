@@ -94,7 +94,7 @@
                 $styles = "";
 
                 foreach($pagina->styles as $style){
-                    $styles .= file_get_contents("{$this->app->appDir}/styles/{$script}.css") . "\n";
+                    $styles .= file_get_contents("{$this->app->appDir}/styles/{$style}.css") . "\n";
                 }
 
                 $this->regVar("stylecode", $styles);

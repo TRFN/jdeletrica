@@ -1,0 +1,15 @@
+{
+    "contem": {
+        "facebook": {
+            "layout": "partes/redesocial-sobrenos",
+            "vars": {
+                "animacao": "bounceInUp",
+                "link": "http://facebook.com/",
+                "icone": "facebook",
+                "titulo": "Visite nosso facebook",
+                "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do"
+            }
+        }
+    },
+    "montagem": ["facebook","facebook","facebook"]
+}
