@@ -6,10 +6,22 @@
                 "animacao": "bounceInUp",
                 "link": "http://facebook.com/",
                 "icone": "facebook",
+                "cor": "#47d",
                 "titulo": "Visite nosso facebook",
+                "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do"
+            }
+        },
+        "youtube": {
+            "layout": "partes/redesocial-sobrenos",
+            "vars": {
+                "animacao": "bounceInRight",
+                "link": "http://youtube.com/",
+                "icone": "youtube",
+                "cor": "#e45",
+                "titulo": "Conheça nosso canal",
                 "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do"
             }
         }
     },
-    "montagem": ["facebook","facebook","facebook"]
+    "montagem": ["facebook","youtube","facebook"]
 }

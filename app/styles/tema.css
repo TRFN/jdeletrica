@@ -142,10 +142,12 @@ a.btn-clear {
     border-color: %cortema%;
     color: %cortema%;
 }
-.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:hover {
+    border-color: %cortema%;
+    color: %cortema%;
+}
 .navbar-default .navbar-nav > li > a:focus {
-    border-color: #5b6168;
-    color: #a4aead;
+    color: %cortema%;
 }
 .navbar-default {
     background-color: #1d2126;
