@@ -1,0 +1,67 @@
+{
+    "versao": "1.0.0.0",
+    "https": false,
+    "404": "homepage",
+    "paginas": {
+        "sessao": {
+            "caminho": ["/sessao.json"],
+            "layout": false,
+            "modelo": false,
+            "scripts": [],
+            "styles": [],
+            "controle": "sessao",
+            "type": "application/json",
+            "persistente": false,
+            "minify": false,
+            "incluir": {},
+            "variaveis": {}
+        },
+        "superscript": {
+            "caminho": ["/script.js"],
+            "layout": false,
+            "modelo": false,
+            "scripts": [],
+            "styles": [],
+            "controle": "superscript",
+            "type": "application/javascript",
+            "persistente": false,
+            "minify": false,
+            "incluir": {},
+            "variaveis": {}
+        },
+        "homepage": {
+            "caminho": ["/","/home"],
+            "layout": "paginas/home/helloworld",
+            "modelo": "estrutura/template",
+            "scripts": [],
+            "styles": [],
+            "controle": false,
+            "type": "text/html",
+            "persistente": false,
+            "minify": false,
+            "incluir": {
+                "form-login": "formularios/formulario-teste"
+            },
+            "variaveis": {
+                "titulo": "Home Page"
+            }
+        },
+        "paginateste": {
+            "caminho": ["/home/teste"],
+            "layout": "paginas/home/teste-de-pagina",
+            "modelo": false,
+            "scripts": ["exemplo"],
+            "styles": [],
+            "controle": "helloworld",
+            "type": "text/html",
+            "persistente": false,
+            "minify": false,
+            "incluir": {
+                "menu": "elementos/menu"
+            },
+            "variaveis": {
+                "titulo": "Teste de página"
+            }
+        }
+    }
+}
