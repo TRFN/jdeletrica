@@ -1,3 +1,8 @@
+# JD Elétrica
+
+Data de entrega do Layout: 25/07/2020
+Data da entrega final: 05/08/2020
+
 # P-MCL
 
 PHP Model Control Layout System
