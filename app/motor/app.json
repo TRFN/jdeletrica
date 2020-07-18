@@ -7,7 +7,7 @@
             "caminho": ["/"],
             "layout": "paginas/index",
             "modelo": "estrutura/template",
-            "scripts": [],
+            "scripts": ["tema"],
             "styles": ["tema"],
             "controle": "principal",
             "type": "text/html",
@@ -19,7 +19,8 @@
 
                 "sobrenos": "partes/sobre-nos",
 
-                "redes": "elementos/redes-sociais"
+                "redes": "elementos/redes-sociais",
+                "slidehome": "elementos/slide-home"
             },
             "variaveis": {
 

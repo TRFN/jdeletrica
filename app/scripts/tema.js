@@ -11,7 +11,7 @@ scrollSpeed: 1000,
 scrollThreshold: 0.25
 });
  $('a.about-more').click(function() {
-          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
             || location.hostname == this.hostname) {
 
             var target = $(this.hash);
@@ -31,7 +31,7 @@ $(this).addClass(effect);
 $(this).addClass('visible');
 });
 
-$("body").backstretch("img/bg.jpg");
+$("body").backstretch("%imagem-parallax%");
  //function
   HeadHeight();
 folioHOver();
@@ -45,7 +45,7 @@ $(document).ready(function () {
  var size_li = $(".row .mywork").size();
     var x=6;
     $('.row .mywork:lt('+x+')').show();
-	
+
     $('#loadMore').click(function () {
          x= (x+6 <= size_li) ? x+6 : size_li;
         $('.row .mywork:lt('+x+')').show();
@@ -73,7 +73,7 @@ $(window).load(function(){
 $(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
     event.preventDefault();
     $(this).ekkoLightbox();
-    }); 
+    });
 $(window).resize(function(){
 HeadHeight();
 navClick();
@@ -96,7 +96,7 @@ $('.hcaption').hover(function(){
     $(this).find('.main-cap').removeClass(animOutCap).addClass(animInCap);
     //$(this).find('.right').removeClass('bounceOutRight').addClass('bounceInRight');
     $(this).find('.caption, .main-cap').fadeIn();
-    
+
 
 }, function(){
 $(this).find('.myToggle').fadeOut();
@@ -108,11 +108,11 @@ $(this).find('.myToggle').fadeOut();
 });
 }
  function navClick(){
- 
+
     $('.navbar-default .navbar-nav>li>a').click(function(){
 		$('.navbar-collapse').toggleClass('in');
 	});
-	
+
  }
  function valid(){
  $("input,select,textarea").not("[type=submit]").jqBootstrapValidation();

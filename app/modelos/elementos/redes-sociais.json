@@ -7,7 +7,7 @@
                 "link": "http://facebook.com/",
                 "icone": "facebook",
                 "cor": "#47d",
-                "titulo": "Visite nosso facebook",
+                "titulo": "Visite nosso Facebook",
                 "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do"
             }
         },
@@ -18,10 +18,10 @@
                 "link": "http://youtube.com/",
                 "icone": "youtube",
                 "cor": "#e45",
-                "titulo": "Conheça nosso canal",
+                "titulo": "Conheça nosso canal no YouTube",
                 "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do"
             }
         }
     },
-    "montagem": ["facebook","youtube","facebook"]
+    "montagem": ["facebook","youtube","facebook","youtube"]
 }
