@@ -1,0 +1,45 @@
+{
+    "contem": {
+        "trabalho1": {
+            "layout": "partes/trabalho",
+            "vars": {
+                "animacao": "bounceInUp",
+                "legenda": "Placa Foto-Voltáica",
+                "imagem": "imagens/placafotovoltaica.jpg"
+            }
+        },
+        "trabalho2": {
+            "layout": "partes/trabalho",
+            "vars": {
+                "animacao": "bounceInDown",
+                "legenda": "Quadro Elétrico",
+                "imagem": "imagens/quadroeletrico1.jpg"
+            }
+        },
+        "trabalho3": {
+            "layout": "partes/trabalho",
+            "vars": {
+                "animacao": "bounceInUp",
+                "legenda": "Lorem ipsum dolor sit amet, consectetur",
+                "imagem": "imagens/quadroeletrico2.jpg"
+            }
+        },
+        "trabalho4": {
+            "layout": "partes/trabalho",
+            "vars": {
+                "animacao": "bounceInDown",
+                "legenda": "Lorem ipsum dolor sit amet, consectetur",
+                "imagem": "imagens/quadroeletrico3.jpg"
+            }
+        },
+        "trabalho5": {
+            "layout": "partes/trabalho",
+            "vars": {
+                "animacao": "bounceInUp",
+                "legenda": "Lorem ipsum dolor sit amet, consectetur",
+                "imagem": "imagens/quadroeletrico4.jpg"
+            }
+        }
+    },
+    "montagem": ["trabalho1","trabalho2","trabalho3","trabalho4","trabalho5","trabalho3"]
+}

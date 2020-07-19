@@ -1,0 +1,37 @@
+{
+    "contem": {
+        "cliente1": {
+            "layout": "partes/clientes",
+            "vars": {
+                "animacao": "bounceInUp",
+                "nome": "ONIX Construtora",
+                "imagem": "imagens/cliente1.jpeg"
+            }
+        },
+        "cliente2": {
+            "layout": "partes/clientes",
+            "vars": {
+                "animacao": "bounceInLeft",
+                "nome": "Construtora LAGE",
+                "imagem": "imagens/cliente2.jpg"
+            }
+        },
+        "cliente3": {
+            "layout": "partes/clientes",
+            "vars": {
+                "animacao": "bounceInDown",
+                "nome": "Boa Vista Construtora",
+                "imagem": "imagens/cliente3.jpg"
+            }
+        },
+        "cliente4": {
+            "layout": "partes/clientes",
+            "vars": {
+                "animacao": "bounceInRight",
+                "nome": "MRV Engenharia",
+                "imagem": "imagens/cliente4.jpg"
+            }
+        }
+    },
+    "montagem": ["cliente1","cliente2","cliente3","cliente4","cliente1","cliente2","cliente3","cliente4"]
+}

@@ -16,15 +16,13 @@
             "incluir": {
                 "menu": "elementos/menu",
                 "footer": "elementos/footer",
-
-                "sobrenos": "partes/sobre-nos",
-
                 "redes": "elementos/redes-sociais",
-                "slidehome": "elementos/slide-home"
+                "slidehome": "elementos/slide-home",
+                "clientes": "elementos/clientes",
+                "trabalho": "elementos/trabalho",
+                "servicos": "elementos/servicos"
             },
-            "variaveis": {
-
-            }
+            "variaveis": {}
         }
     }
 }

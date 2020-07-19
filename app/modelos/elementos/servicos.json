@@ -1,0 +1,35 @@
+{
+    "contem": {
+        "servico1": {
+            "layout": "partes/servicos",
+            "vars": {
+                "animacao": "bounceInRight",
+                "titulo": "Projetos Elétricos",
+                "texto": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod",
+                "cor": "#4a3",
+                "icone": "thumbs-up"
+            }
+        },
+        "servico2": {
+            "layout": "partes/servicos",
+            "vars": {
+                "animacao": "bounceInLeft",
+                "titulo": "Elétrica Predial",
+                "texto": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod",
+                "cor": "#45b",
+                "icone": "bolt"
+            }
+        },
+        "servico3": {
+            "layout": "partes/servicos",
+            "vars": {
+                "animacao": "bounceInLeft",
+                "titulo": "Energia Solar",
+                "texto": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod",
+                "cor": "%cortema%",
+                "icone": "sun-o"
+            }
+        }
+    },
+    "montagem": ["servico1","servico2","servico3","servico2","servico1","servico3","servico1","servico2"]
+}

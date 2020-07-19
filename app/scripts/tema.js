@@ -43,28 +43,35 @@ valid();
 // ===========================================
 $(document).ready(function () {
  var size_li = $(".row .mywork").size();
+ $(".fancybox").fancybox({
+       helpers: {
+           title : {
+               type : 'float'
+           }
+       }
+   });
     var x=6;
-    $('.row .mywork:lt('+x+')').show();
-
-    $('#loadMore').click(function () {
-         x= (x+6 <= size_li) ? x+6 : size_li;
-        $('.row .mywork:lt('+x+')').show();
-         $('#showLess').show();
-        if(x == size_li){
-            $('#loadMore').hide();
-        }
-		return false;
-    });
-    $('#showLess').click(function () {
-         x=(x-6<0) ? 6 : x-6;
-        $('.row .mywork').not(':lt('+x+')').hide();
-        $('#loadMore').show();
-         $('#showLess').show();
-        if(x == 6){
-            $('#showLess').hide();
-        }
-		return false;
-    });
+    $('.row .mywork:lt('+/*x*/size_li+')').show();
+    //
+    // $('#loadMore').click(function () {
+    //      x= (x+6 <= size_li) ? x+6 : size_li;
+    //     $('.row .mywork:lt('+x+')').show();
+    //      $('#showLess').show();
+    //     if(x == size_li){
+    //         $('#loadMore').hide();
+    //     }
+	// 	return false;
+    // });
+    // $('#showLess').click(function () {
+    //      x=(x-6<0) ? 6 : x-6;
+    //     $('.row .mywork').not(':lt('+x+')').hide();
+    //     $('#loadMore').show();
+    //      $('#showLess').show();
+    //     if(x == 6){
+    //         $('#showLess').hide();
+    //     }
+	// 	return false;
+    // });
     });
 $(window).load(function(){
 

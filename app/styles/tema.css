@@ -107,7 +107,7 @@ img {
 }
 .page-color .title-page h2 {
     color: #fff;
-    border-color: #4e5a62;
+    border-color: %corbordadark%;
 }
 a.btn-clear {
     border: 2px solid #fff;
@@ -131,28 +131,39 @@ a.btn-clear {
     padding-right: 10px;
     padding-left: 10px;
     margin: 23px 10px;
-    border: 2px solid transparent;
-    border-radius: 3px;
+    border: 1px solid transparent;
+    border-radius: 0px;
 }
 .navbar-default .navbar-nav > li > a {
-    color: #a4aead;
+    color: #a4aead!important;
     font-weight: 700;
+    transition: all 300ms ease;
 }
 .navbar-nav > li.current > a {
-    border-color: %cortema%;
-    color: %cortema%;
+    border-color: %cortema%!important;
+    color: %cortema%!important;
+    box-shadow: 0px 0px 3px %cortema%;
 }
 .navbar-default .navbar-nav > li > a:hover {
-    border-color: %cortema%;
-    color: %cortema%;
-}
-.navbar-default .navbar-nav > li > a:focus {
-    color: %cortema%;
+    border-color: %cortema%!important;
+    color: %cortema%!important;
+    box-shadow: 0px 0px 3px %cortema%;
 }
 .navbar-default {
     background-color: #1d2126;
     border-color: none;
 }
+
+#contact .form-control {
+    background-color: #eee;
+    color: #333;
+    border-radius: 0px;
+}
+
+#contact button[type=submit] {
+    border-radius: 0px;
+}
+
 .delay1 {
     -webkit-animation-delay: 100ms;
     -moz-animation-delay: 100ms;
@@ -276,7 +287,7 @@ a.btn-clear:hover {
 .title-page h2 {
     font-family: QuattrocentoSans-Bold, sans-serif;
     margin: 0;
-    border-left: 10px solid #e1e6ea;
+    border-left: 10px solid %corborda%;
     padding-left: 10px;
     color: #292f36;
     font-size: 36px;
@@ -353,7 +364,7 @@ ul.my-social li a:hover {
     font-weight: 400;
 }
 .team-attr {
-    background: #e1e6ea;
+    background: %corborda%;
     padding: 15px;
 }
 .team-attr h3 {
@@ -391,7 +402,7 @@ ul.team-social a {
     color: #fff;
 }
 ul.team-social a:hover {
-    background: #4e5a62;
+    background: %corbordadark%;
 }
 .team .myToggle {
     background: rgba(255, 255, 255, 0.4);
