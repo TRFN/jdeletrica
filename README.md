@@ -4,6 +4,8 @@ Data de entrega do Layout: 25/07/2020
 
 Data da entrega final: 05/08/2020
 
++ Atualização: Termino da versão inicial do layout em 19/07/2020. Falta o sistema PHP Mailer.
+
 
 # ------------------
 
