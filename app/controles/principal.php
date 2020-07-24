@@ -7,9 +7,11 @@
         $ctx->regVar("corbordadark", "#4E5A62");
         $ctx->regVar("logotipo", "imagens/logotipo.png");
         $ctx->regVar("logocss", "
-            width: 250px;
-            background-size: 220px;
-            margin-top: 6px;
+            display: inline-block;
+            width: 270px;
+            background-size: 250px;
+            height: 87px;
+            margin-top: -16px;
         ");
         $ctx->regVar("slidehome-anim-in", "bounceInUp");
         $ctx->regVar("slidehome-anim-out", "bounceOutDown");
