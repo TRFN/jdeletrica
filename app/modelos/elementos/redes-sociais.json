@@ -1,27 +1,27 @@
 {
     "contem": {
-        "facebook": {
+        "instagram": {
             "layout": "partes/redesocial-sobrenos",
             "vars": {
                 "animacao": "bounceInUp",
-                "link": "http://facebook.com/",
-                "icone": "facebook",
-                "cor": "#47d",
-                "titulo": "Visite nosso Facebook",
-                "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do"
+                "icone": "instagram",
+                "cor": "#222",
+                "titulo": "Conheça nosso @Instagram Oficial",
+                "desc": "%link%",
+                "link": "https://www.instagram.com/jd.eletrica/"
             }
         },
-        "youtube": {
+        "facebook": {
             "layout": "partes/redesocial-sobrenos",
             "vars": {
                 "animacao": "bounceInRight",
-                "link": "http://youtube.com/",
-                "icone": "youtube",
-                "cor": "#e45",
-                "titulo": "Conheça nosso canal no YouTube",
-                "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do"
+                "icone": "facebook",
+                "cor": "#45b",
+                "titulo": "Visite nossa página no Facebook",
+                "desc": "%link%",
+                "link": "https://www.facebook.com/"
             }
         }
     },
-    "montagem": ["facebook","youtube","facebook","youtube"]
+    "montagem": ["instagram","facebook"]
 }

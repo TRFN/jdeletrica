@@ -4,34 +4,20 @@
             "layout": "partes/clientes",
             "vars": {
                 "animacao": "bounceInUp",
-                "nome": "ONIX Construtora",
-                "imagem": "imagens/cliente1.jpeg"
+                "nome": "PHM Engenharia",
+                "imagem": "imagens/cliente_phm.jpeg",
+                "link": "http://phmengenharia.com.br/"
             }
         },
         "cliente2": {
             "layout": "partes/clientes",
             "vars": {
-                "animacao": "bounceInLeft",
-                "nome": "Construtora LAGE",
-                "imagem": "imagens/cliente2.jpg"
-            }
-        },
-        "cliente3": {
-            "layout": "partes/clientes",
-            "vars": {
                 "animacao": "bounceInDown",
-                "nome": "Boa Vista Construtora",
-                "imagem": "imagens/cliente3.jpg"
-            }
-        },
-        "cliente4": {
-            "layout": "partes/clientes",
-            "vars": {
-                "animacao": "bounceInRight",
-                "nome": "MRV Engenharia",
-                "imagem": "imagens/cliente4.jpg"
+                "nome": "Construtora MRV",
+                "imagem": "imagens/cliente4.jpg",
+                "link": "https://www.mrv.com.br/"
             }
         }
     },
-    "montagem": ["cliente1","cliente2","cliente3","cliente4","cliente1","cliente2","cliente3","cliente4"]
+    "montagem": ["cliente1","cliente2"]
 }
