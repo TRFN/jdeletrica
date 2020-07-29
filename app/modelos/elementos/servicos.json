@@ -5,7 +5,7 @@
             "vars": {
                 "animacao": "bounceInRight",
                 "titulo": "Paineis Elétricos",
-                "texto": "Instalação e manutenção em painéis elétricos.",
+                "texto": "Instalação e manutenção em painéis elétricos de acionamento.",
                 "cor": "#4a3",
                 "icone": "thumbs-up"
             }
@@ -15,7 +15,7 @@
             "vars": {
                 "animacao": "bounceInLeft",
                 "titulo": "Instalações Elétricas",
-                "texto": "Sistemas Elétricos prediais e Residênciais",
+                "texto": "Sistemas Elétricos prediais e residênciais",
                 "cor": "#45b",
                 "icone": "bolt"
             }
